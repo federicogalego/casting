@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iair Said - Dirección de Casting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1>IAIR SAID</h1>
+            <p class="subtitle">dirección de casting</p>
+            <div class="nav-links">
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>PROYECTOS</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h2>CONTACTO</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Para consultas sobre proyectos o colaboraciones:</p>
+                    <a href="mailto:contacto@iairsaid.com" class="email">contacto@iairsaid.com</a>
+                </div>
+                <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">ENVIAR</button>
+                    <div id="formStatus"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Iair Said - Todos los derechos reservados</p>
+    </footer>
+
+    <!-- Modal for project details -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="projects.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
