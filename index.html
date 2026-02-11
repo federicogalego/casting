@@ -7,60 +7,97 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-            <h1>IAIR SAID</h1>
-            <p class="subtitle">dirección de casting</p>
-            <div class="nav-links">
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contacto">Contacto</a>
-            </div>
-        </div>
-    </nav>
-
-    <section id="portfolio">
-        <div class="container">
-            <h2>PROYECTOS</h2>
-            <div class="projects-grid" id="projectsGrid">
-                <!-- Projects will be loaded here by JavaScript -->
-            </div>
-        </div>
-    </section>
-
-    <section id="contacto">
-        <div class="container">
-            <h2>CONTACTO</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <p>Para consultas sobre proyectos o colaboraciones:</p>
-                    <a href="mailto:contacto@iairsaid.com" class="email">contacto@iairsaid.com</a>
+    <!-- Hero Section -->
+    <header class="hero">
+        <nav class="navbar">
+            <div class="nav-content">
+                <a href="#home" class="logo">IAIR SAID</a>
+                <div class="nav-menu">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
                 </div>
-                <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                    <div class="form-group">
-                        <input type="text" name="nombre" placeholder="Nombre" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
-                    </div>
-                    <button type="submit">ENVIAR</button>
-                    <div id="formStatus"></div>
-                </form>
+            </div>
+        </nav>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">IAIR SAID</span>
+            </h1>
+            <p class="hero-subtitle">Dirección de Casting</p>
+            <p class="hero-description">
+                Más de 60 producciones internacionales.<br>
+                Netflix, Disney+, HBO, Prime Video y más.
+            </p>
+            <a href="#portfolio" class="hero-cta">Ver Portfolio</a>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-description">Proyectos destacados en cine y series</p>
+            </div>
+            
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects loaded by JavaScript -->
             </div>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2026 Iair Said - Todos los derechos reservados</p>
+    <!-- Contact Section -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-text">
+                    <h2 class="section-title">Trabajemos Juntos</h2>
+                    <p class="contact-intro">
+                        ¿Tienes un proyecto en mente?<br>
+                        Me encantaría saber de ti.
+                    </p>
+                    <a href="mailto:contacto@iairsaid.com" class="email-link">contacto@iairsaid.com</a>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="nombre" placeholder="Nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="mensaje" placeholder="Mensaje" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                        <div id="formStatus"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Iair Said. Todos los derechos reservados.</p>
+        </div>
     </footer>
 
-    <!-- Modal for project details -->
+    <!-- Project Modal -->
     <div id="projectModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div id="modalBody"></div>
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body" id="modalBody"></div>
         </div>
     </div>
 

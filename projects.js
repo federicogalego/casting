@@ -1,4 +1,4 @@
-// All projects data extracted from the portfolio
+// All projects data with real images
 const projects = [
     {
         title: "EL ETERNAUTA",
@@ -6,7 +6,7 @@ const projects = [
         year: 2025,
         platform: "Netflix",
         type: "Serie",
-        image: "images/ES-AR_EE_Main-Key-Art_The-Mask_Vertical_27x40_sRGB_PRE_OP2.jpg"
+        image: "images/el-eternauta.jpg"
     },
     {
         title: "EL FUTURO ES NUESTRO",
@@ -14,7 +14,7 @@ const projects = [
         year: "TBA",
         platform: "Netflix",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EL+FUTURO+ES+NUESTRO"
+        image: "images/el-futuro-es-nuestro.jpg"
     },
     {
         title: "MIS MUERTOS TRISTES",
@@ -22,7 +22,7 @@ const projects = [
         year: "TBA",
         platform: "Netflix",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=MIS+MUERTOS+TRISTES"
+        image: "images/mis-muertos-tristes.jpg"
     },
     {
         title: "YO, NARCISO",
@@ -30,7 +30,7 @@ const projects = [
         year: "TBA",
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=YO+NARCISO"
+        image: "images/yo-narciso.jpg"
     },
     {
         title: "LA DESCONOCIDA",
@@ -38,7 +38,7 @@ const projects = [
         year: "TBA",
         platform: "Netflix",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=LA+DESCONOCIDA"
+        image: "images/la-desconocida.jpg"
     },
     {
         title: "FELICIDADES",
@@ -46,7 +46,7 @@ const projects = [
         year: "TBA",
         platform: "Netflix",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=FELICIDADES"
+        image: "images/felicidades.jpg"
     },
     {
         title: "PORNO Y HELADO",
@@ -54,7 +54,7 @@ const projects = [
         year: "T1 (2022), T2 (2024) y T3 (TBA)",
         platform: "Prime Video",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=PORNO+Y+HELADO"
+        image: "images/porno-y-helado.jpg"
     },
     {
         title: "DIVISIÓN PALERMO",
@@ -62,7 +62,7 @@ const projects = [
         year: "T1 (2023) y T2 (2025)",
         platform: "Netflix",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=DIVISION+PALERMO"
+        image: "images/division-palermo.jpg"
     },
     {
         title: "MAZEL TOV",
@@ -70,7 +70,7 @@ const projects = [
         year: 2025,
         platform: "Disney+",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=MAZEL+TOV"
+        image: "images/mazel-tov.jpg"
     },
     {
         title: "EL BESO DE LA MUJER ARAÑA",
@@ -78,7 +78,7 @@ const projects = [
         year: 2025,
         platform: "Consultoría",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EL+BESO+DE+LA+MUJER+ARANA"
+        image: "images/el-beso-mujer-arana.jpg"
     },
     {
         title: "ROCCO SCHIAVONE",
@@ -86,7 +86,7 @@ const projects = [
         year: "T6 (2025)",
         platform: "(Casting Argentina)",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=ROCCO+SCHIAVONE"
+        image: "images/rocco-schiavone.jpg"
     },
     {
         title: "VENCER O MORIR",
@@ -94,7 +94,7 @@ const projects = [
         year: 2024,
         platform: "Prime Video (Casting Argentina)",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=VENCER+O+MORIR"
+        image: "images/vencer-o-morir.jpg"
     },
     {
         title: "MÁXIMA",
@@ -102,7 +102,7 @@ const projects = [
         year: "T1 (2024), T2 (TBA) y T3 (TBA)",
         platform: "HBO",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=MAXIMA"
+        image: "images/maxima.jpg"
     },
     {
         title: "DESCANSAR EN PAZ",
@@ -110,7 +110,7 @@ const projects = [
         year: 2024,
         platform: "Netflix",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=DESCANSAR+EN+PAZ"
+        image: "images/descansar-en-paz.jpg"
     },
     {
         title: "JAQUE MATE",
@@ -118,7 +118,7 @@ const projects = [
         year: 2024,
         platform: "Prime Video",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=JAQUE+MATE"
+        image: "images/jaque-mate.jpg"
     },
     {
         title: "LINDA",
@@ -126,7 +126,7 @@ const projects = [
         year: 2024,
         platform: "Disney+",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=LINDA"
+        image: "images/linda.jpg"
     },
     {
         title: "LAS HERMANAS FANTÁSTICAS",
@@ -134,7 +134,7 @@ const projects = [
         year: 2024,
         platform: "Netflix",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=LAS+HERMANAS+FANTASTICAS"
+        image: "images/las-hermanas-fantasticas.jpg"
     },
     {
         title: "TERAPIA ALTERNATIVA",
@@ -142,7 +142,7 @@ const projects = [
         year: "T2 (2024)",
         platform: "Disney+",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=TERAPIA+ALTERNATIVA"
+        image: "images/terapia-alternativa.jpg"
     },
     {
         title: "EL REINO",
@@ -150,7 +150,7 @@ const projects = [
         year: "T1 (2021) y T2 (2023)",
         platform: "Netflix",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EL+REINO"
+        image: "images/el-reino.jpg"
     },
     {
         title: "EL AMOR DESPUÉS DEL AMOR",
@@ -158,7 +158,7 @@ const projects = [
         year: 2023,
         platform: "Netflix",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EL+AMOR+DESPUES+DEL+AMOR"
+        image: "images/el-amor-despues-del-amor.jpg"
     },
     {
         title: "WHILE YOU WERE BREEDING",
@@ -166,7 +166,7 @@ const projects = [
         year: 2023,
         platform: "Hulu",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=WHILE+YOU+WERE+BREEDING"
+        image: "images/while-you-were-breeding.jpg"
     },
     {
         title: "LA SOCIEDAD DE LA NIEVE",
@@ -174,7 +174,7 @@ const projects = [
         year: 2023,
         platform: "Netflix",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=LA+SOCIEDAD+DE+LA+NIEVE"
+        image: "images/la-sociedad-de-la-nieve.jpg"
     },
     {
         title: "MOSCAS",
@@ -182,7 +182,7 @@ const projects = [
         year: 2023,
         platform: "Vix",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=MOSCAS"
+        image: "images/moscas.jpg"
     },
     {
         title: "CRÓNICAS DE UNA SANTA ERRANTE",
@@ -190,7 +190,7 @@ const projects = [
         year: 2023,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=CRONICAS+DE+UNA+SANTA+ERRANTE"
+        image: "images/cronicas-santa-errante.jpg"
     },
     {
         title: "NAUFRAGIOS",
@@ -198,7 +198,7 @@ const projects = [
         year: 2023,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=NAUFRAGIOS"
+        image: "images/naufragios.jpg"
     },
     {
         title: "MARTINA CHAPANAY",
@@ -206,7 +206,7 @@ const projects = [
         year: 2023,
         platform: "Canal Encuentro",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=MARTINA+CHAPANAY"
+        image: "images/martina-chapanay.jpg"
     },
     {
         title: "EL FIN DEL AMOR",
@@ -214,7 +214,7 @@ const projects = [
         year: "T1 (2022)",
         platform: "Prime Video",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EL+FIN+DEL+AMOR"
+        image: "images/el-fin-del-amor.jpg"
     },
     {
         title: "30 NOCHES CON MI EX",
@@ -222,7 +222,7 @@ const projects = [
         year: 2022,
         platform: "Disney+",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=30+NOCHES+CON+MI+EX"
+        image: "images/30-noches-con-mi-ex.jpg"
     },
     {
         title: "SUPERNOVA",
@@ -230,7 +230,7 @@ const projects = [
         year: 2022,
         platform: "Prime Video",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=SUPERNOVA"
+        image: "images/supernova.jpg"
     },
     {
         title: "LEGÍTIMA DEFENSA",
@@ -238,7 +238,7 @@ const projects = [
         year: 2022,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=LEGITIMA+DEFENSA"
+        image: "images/legitima-defensa.jpg"
     },
     {
         title: "EL CASO MONROY",
@@ -246,7 +246,7 @@ const projects = [
         year: 2022,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EL+CASO+MONROY"
+        image: "images/el-caso-monroy.jpg"
     },
     {
         title: "ADIÓS BUENOS AIRES",
@@ -254,7 +254,7 @@ const projects = [
         year: 2022,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=ADIOS+BUENOS+AIRES"
+        image: "images/adios-buenos-aires.jpg"
     },
     {
         title: "WEST SIDE STORY",
@@ -262,7 +262,7 @@ const projects = [
         year: 2021,
         platform: "(Casting Argentina)",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=WEST+SIDE+STORY"
+        image: "images/west-side-story.jpg"
     },
     {
         title: "LA CHICA NUEVA",
@@ -270,7 +270,7 @@ const projects = [
         year: 2021,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=LA+CHICA+NUEVA"
+        image: "images/la-chica-nueva.jpg"
     },
     {
         title: "EL PRÓFUGO",
@@ -278,7 +278,7 @@ const projects = [
         year: 2020,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EL+PROFUGO"
+        image: "images/el-profugo.jpg"
     },
     {
         title: "CASI FELIZ",
@@ -286,7 +286,7 @@ const projects = [
         year: "T1 (2020)",
         platform: "Netflix",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=CASI+FELIZ"
+        image: "images/casi-feliz.jpg"
     },
     {
         title: "LA ODISEA DE LOS GILES",
@@ -294,7 +294,7 @@ const projects = [
         year: 2019,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=LA+ODISEA+DE+LOS+GILES"
+        image: "images/la-odisea-de-los-giles.jpg"
     },
     {
         title: "EL AMOR ES MÁS FÁCIL",
@@ -302,7 +302,7 @@ const projects = [
         year: 2020,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EL+AMOR+ES+MAS+FACIL"
+        image: "images/el-amor-es-mas-facil.jpg"
     },
     {
         title: "ARDE MADRID",
@@ -310,7 +310,7 @@ const projects = [
         year: 2018,
         platform: "(Casting Argentina) Movistar+",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=ARDE+MADRID"
+        image: "images/arde-madrid.jpg"
     },
     {
         title: "LOS MIEMBROS DE LA FAMILIA",
@@ -318,7 +318,7 @@ const projects = [
         year: 2019,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=LOS+MIEMBROS+DE+LA+FAMILIA"
+        image: "images/los-miembros-de-la-familia.jpg"
     },
     {
         title: "OPERACIÓN FINAL",
@@ -326,7 +326,7 @@ const projects = [
         year: 2018,
         platform: "(Casting Argentina) Netflix",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=OPERACION+FINAL"
+        image: "images/operacion-final.jpg"
     },
     {
         title: "PORNO PARA PRINCIPIANTES",
@@ -334,7 +334,7 @@ const projects = [
         year: 2018,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=PORNO+PARA+PRINCIPIANTES"
+        image: "images/porno-para-principiantes.jpg"
     },
     {
         title: "EL ÁNGEL",
@@ -342,7 +342,7 @@ const projects = [
         year: 2018,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EL+ANGEL"
+        image: "images/el-angel.jpg"
     },
     {
         title: "PSICONAUTAS",
@@ -350,7 +350,7 @@ const projects = [
         year: "T1(2016) y T2 (2018)",
         platform: "",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=PSICONAUTAS"
+        image: "images/psiconautas.jpg"
     },
     {
         title: "AHÍ AFUERA",
@@ -358,7 +358,7 @@ const projects = [
         year: 2017,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=AHI+AFUERA"
+        image: "images/ahi-afuera.jpg"
     },
     {
         title: "UNA NOCHE DE AMOR",
@@ -366,7 +366,7 @@ const projects = [
         year: 2016,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=UNA+NOCHE+DE+AMOR"
+        image: "images/una-noche-de-amor.jpg"
     },
     {
         title: "2001: MIENTRAS KUBRICK ESTABA EN EL ESPACIO",
@@ -374,7 +374,7 @@ const projects = [
         year: 2016,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=2001+MIENTRAS+KUBRICK"
+        image: "images/2001-kubrick.jpg"
     },
     {
         title: "MALDITO SEAS WATERFALL",
@@ -382,7 +382,7 @@ const projects = [
         year: 2016,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=MALDITO+SEAS+WATERFALL"
+        image: "images/maldito-seas-waterfall.jpg"
     },
     {
         title: "PRINCESITA",
@@ -390,7 +390,7 @@ const projects = [
         year: 2016,
         platform: "(Casting Argentina)",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=PRINCESITA"
+        image: "images/princesita.jpg"
     },
     {
         title: "EL CIUDADANO ILUSTRE",
@@ -398,7 +398,7 @@ const projects = [
         year: 2016,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EL+CIUDADANO+ILUSTRE"
+        image: "images/el-ciudadano-ilustre.jpg"
     },
     {
         title: "EL HIPNOTIZADOR",
@@ -406,7 +406,7 @@ const projects = [
         year: "T1 (2015)",
         platform: "(Casting Argentina)",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EL+HIPNOTIZADOR"
+        image: "images/el-hipnotizador.jpg"
     },
     {
         title: "VOLEY",
@@ -414,7 +414,7 @@ const projects = [
         year: 2015,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=VOLEY"
+        image: "images/voley.jpg"
     },
     {
         title: "FOCUS",
@@ -422,7 +422,7 @@ const projects = [
         year: 2015,
         platform: "(Casting Argentina)",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=FOCUS"
+        image: "images/focus.jpg"
     },
     {
         title: "EN LAS NUBES",
@@ -430,7 +430,7 @@ const projects = [
         year: 2014,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EN+LAS+NUBES"
+        image: "images/en-las-nubes.jpg"
     },
     {
         title: "TIEMPO LIBRE",
@@ -438,7 +438,7 @@ const projects = [
         year: 2014,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=TIEMPO+LIBRE"
+        image: "images/tiempo-libre.jpg"
     },
     {
         title: "BIEN DE FAMILIA",
@@ -446,7 +446,7 @@ const projects = [
         year: 2014,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=BIEN+DE+FAMILIA"
+        image: "images/bien-de-familia.jpg"
     },
     {
         title: "DOS DISPAROS",
@@ -454,7 +454,7 @@ const projects = [
         year: 2014,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=DOS+DISPAROS"
+        image: "images/dos-disparos.jpg"
     },
     {
         title: "RELATOS SALVAJES",
@@ -462,7 +462,7 @@ const projects = [
         year: 2014,
         platform: "(Asistencia de casting)",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=RELATOS+SALVAJES"
+        image: "images/relatos-salvajes.jpg"
     },
     {
         title: "SÉPTIMO",
@@ -470,7 +470,7 @@ const projects = [
         year: 2013,
         platform: "(Asistencia de casting)",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=SEPTIMO"
+        image: "images/septimo.jpg"
     },
     {
         title: "LA PELEA DE MI VIDA",
@@ -478,6 +478,6 @@ const projects = [
         year: 2012,
         platform: "",
         type: "Película",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=LA+PELEA+DE+MI+VIDA"
+        image: "images/la-pelea-de-mi-vida.jpg"
     }
 ];
