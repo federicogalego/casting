@@ -6,7 +6,7 @@ const projects = [
         year: 2025,
         platform: "Netflix",
         type: "Serie",
-        image: "https://via.placeholder.com/400x600/000000/D4AF37?text=EL+ETERNAUTA"
+        image: "images/ES-AR_EE_Main-Key-Art_The-Mask_Vertical_27x40_sRGB_PRE_OP2.jpg"
     },
     {
         title: "EL FUTURO ES NUESTRO",
